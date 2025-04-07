@@ -1,6 +1,2 @@
-Store as separate files in ModelSim for ease of use.
-Features used:
-Gaussian elimination/blur
-Edge detection
-Segmentation
-Threshold based result.
+In this work we present a brain tumor detection system leveraging MRI image processing techniques implemented in MATLAB. The proposed system identifies tumor regions by utilizing Gaussian elimination for noise reduction, edge detection to highlight boundaries, segmentation to isolate regions of interest, and thresholding to provide accurate detection. To improve real-time processing capabilities and enhance system efficiency, the algorithm has been implemented on a Field Programmable Gate Array (FPGA) platform. This integration allows for faster computations, making it suitable for applications where immediate diagnosis is critical. Our results demonstrate effective tumor localization and classification, showing promise for clinical diagnostic support systems.
+The FPGA-based implementation of the brain tumor detection system successfully demonstrated accurate tumor identification using MRI image data. The results show that the system can reliably distinguish tumor and non-tumor regions by counting the white pixels after thresholding and other preprocessing techniques. The binary output for tumor detection (indicated by "Tumor Detected: 1" or "0") highlights the effectiveness of our design, which utilizes Gaussian elimination, edge detection, segmentation, and thresholding.
